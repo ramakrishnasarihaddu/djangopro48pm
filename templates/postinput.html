@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body bgcolor="#dc143c">
+<form action="./add" method="post">
+    {% csrf_token %}
+    Enter fn:<input type="text" name="t1">
+    Enter Sn:<input type="text" name="t2">
+    <input type="submit" value="add">
+
+</form>
+
+</body>
+</html>
